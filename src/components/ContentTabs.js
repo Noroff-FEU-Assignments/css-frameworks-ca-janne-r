@@ -4,6 +4,7 @@ import Tab from "react-bootstrap/Tab";
 import image1 from "../images/tab/tab-1.jpg";
 import image2 from "../images/tab/tab-2.jpg";
 import image3 from "../images/tab/tab-3.jpg";
+import Share from "./Share";
 
 function ContentTabs() {
   return (
@@ -15,7 +16,7 @@ function ContentTabs() {
           alt="First slide"
         />
         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
+        <Share />
       </Tab>
       <Tab eventKey="second" title="Second">
         <img
@@ -24,7 +25,7 @@ function ContentTabs() {
           alt="First slide"
         />
         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
+        <Share />
       </Tab>
       <Tab eventKey="third" title="Third">
         <img
@@ -33,7 +34,7 @@ function ContentTabs() {
           alt="First slide"
         />
         Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-
+        <Share />
       </Tab>
     </Tabs>
   );
