@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ContentTabs from "../components/ContentTabs";
 import ContentAccordion from "../components/ContentAccordion";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 
