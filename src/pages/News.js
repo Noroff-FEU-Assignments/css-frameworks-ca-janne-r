@@ -3,7 +3,7 @@ import NewsCard from "../components/NewsCard";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ButtonNum from "../components/ButtonNum"
+import ButtonNum from "../components/ButtonNum";
 
 function News() {
   return (
@@ -16,7 +16,7 @@ function News() {
           <NewsCard />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-1.jpg" />
         </Col>
         <Col>
           <NewsCard />

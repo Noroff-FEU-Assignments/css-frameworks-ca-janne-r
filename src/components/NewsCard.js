@@ -2,11 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-
-function NewsCard() {
+function NewsCard(props) {
   return (
     <Card >
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={props.src} />
       <Card.Body>
         <Card.Title>Nunc porttitor vel</Card.Title>
         <Card.Text>

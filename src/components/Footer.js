@@ -7,8 +7,8 @@ function Footer() {
 
 
       <footer>
-        <div><i class="fab fa-vimeo-v"></i>
-          <i class="fab fa-youtube"></i>
+        <div><i className="fab fa-vimeo-v"></i>
+          <i className="fab fa-youtube"></i>
         </div>
         <div>hello@yay.com</div>
         <div>Copyright 2020</div>
