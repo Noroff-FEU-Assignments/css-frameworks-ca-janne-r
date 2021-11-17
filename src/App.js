@@ -1,4 +1,5 @@
 import React from "react";
+import "./sass/style.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import News from "./pages/News";

@@ -1,0 +1,22 @@
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+
+$colour-background-primary: #efefef;
+$colour-background-secondary: #ffffff;
+$colour-background-body: #e5e5e5;
+
+$theme-colors: (
+  "primary": $colour-primary,
+  "light": $colour-background-primary,
+);
+
+$body-bg: $colour-background-body;
+$input-bg: $colour-background-secondary;
+$body-color: $colour-secondary;
+
+$font-family-base: "Lato", serif;
+$headings-font-family: "Playfair Display", sans-serif;
+$headings-color: $colour-primary;
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/form";
