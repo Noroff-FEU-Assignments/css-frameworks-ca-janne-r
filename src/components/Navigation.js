@@ -33,7 +33,7 @@ function Navigation() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="primary">Go</Button>
+            <Button>Go</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

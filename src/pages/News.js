@@ -13,28 +13,28 @@ function News() {
       <ButtonNum />
       <Row xs={1} sm={2} lg={4}>
         <Col>
-          <NewsCard />
-        </Col>
-        <Col>
           <NewsCard src="images/news/news-1.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-2.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-3.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-4.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-5.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-6.jpg" />
         </Col>
         <Col>
-          <NewsCard />
+          <NewsCard src="images/news/news-7.jpg" />
+        </Col>
+        <Col>
+          <NewsCard src="images/news/news-8.jpg" />
         </Col>
       </Row>
       <ButtonNum />

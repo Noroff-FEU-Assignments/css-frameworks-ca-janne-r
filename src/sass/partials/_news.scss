@@ -1,0 +1,8 @@
+.row {
+  --bs-gutter-y: 1.5rem;
+}
+
+.btn-group > :not(.btn-check) + .btn {
+  background-color: white;
+  color: $colour-primary;
+}

@@ -11,7 +11,7 @@ function NewsCard(props) {
         <Card.Text>
           Nunc malesuada eget est fringilla dapibus.
         </Card.Text>
-        <Button variant="primary">MORE</Button>
+        <Button variant="more">MORE</Button>
       </Card.Body>
     </Card>
 
