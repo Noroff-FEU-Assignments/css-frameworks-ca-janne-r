@@ -17,13 +17,14 @@
 
 .nav-link {
   color: $colour-primary;
+  font-family: "Lato";
 }
 
 .tab-content > .active {
   display: flex;
 }
 
-.d-block {
+.tab--img {
   width: auto;
   height: 200px;
   padding: 20px;

@@ -8,7 +8,7 @@ function ContentTabs() {
     <Tabs defaultActiveKey="first" id="uncontrolled-tab-example">
       <Tab eventKey="first" title="First">
         <img
-          className="d-block"
+          className="d-block tab--img"
           src="images/tab/tab-1.jpg"
           alt="First slide"
         />
@@ -19,7 +19,7 @@ function ContentTabs() {
       </Tab>
       <Tab eventKey="second" title="Second">
         <img
-          className="d-block"
+          className="d-block tab--img"
           src="images/tab/tab-2.jpg"
           alt="First slide"
         />
@@ -30,7 +30,7 @@ function ContentTabs() {
       </Tab>
       <Tab eventKey="third" title="Third">
         <img
-          className="d-block"
+          className="d-block tab--img"
           src="images/tab/tab-3.jpg"
           alt="First slide"
         />

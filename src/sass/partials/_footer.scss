@@ -1,0 +1,14 @@
+footer {
+  background-color: $colour-background-secondary;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.footer--content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--content__icons :first-child {
+  margin-right: 10px;
+}

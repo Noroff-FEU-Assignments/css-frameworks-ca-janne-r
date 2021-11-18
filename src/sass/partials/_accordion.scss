@@ -1,0 +1,23 @@
+.accordion-button:not(.collapsed),
+.accordion-button {
+  color: $colour-primary;
+  background-color: white;
+  font-family: "Lato";
+}
+.accordion-button:not(.collapsed) {
+  border-bottom: 1px solid $colour-primary;
+}
+
+.accordion--img {
+  margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-item {
+  background-color: $colour-background-primary;
+  border: none;
+}
