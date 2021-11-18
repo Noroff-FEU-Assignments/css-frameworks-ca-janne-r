@@ -6,3 +6,21 @@
   background-color: white;
   color: $colour-primary;
 }
+
+.btn-more {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    $colour-primary 90%,
+    $colour-secondary 50%
+  );
+  border: none;
+}
+
+.btn-group {
+  margin: 20px 0 20px;
+}
+
+.btn {
+  color: white;
+}

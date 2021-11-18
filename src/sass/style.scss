@@ -10,7 +10,6 @@ $theme-colors: (
   "light": $colour-background-primary,
 );
 
-$body-bg: $colour-background-body;
 $input-bg: $colour-background-secondary;
 $body-color: $colour-secondary;
 
@@ -22,7 +21,6 @@ $nav-link: $colour-primary;
 
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/layout";
-
 @import "./partials/form";
 @import "./partials/tabs";
 @import "./partials/typography";
@@ -32,6 +30,5 @@ $nav-link: $colour-primary;
 @import "./partials/share";
 @import "./partials/accordion";
 @import "./partials/news";
-@import "./partials/buttons";
-
+@import "./partials/contactInfo";
 @import "./partials/footer";

@@ -6,12 +6,17 @@ import Container from "react-bootstrap/Container";
 function Contact() {
   return (
     <Container>
-      <ContactInfo />
-      <h1>Submit your details</h1>
-      <div>
-        <ContactForm />
+      <div className="contact--container">
+        <div>
+          <ContactInfo />
+        </div>
+        <div >
+          <h1>Submit your details</h1>
+          <div className="contact--container__form">
+            <ContactForm />
+          </div>
+        </div>
       </div>
-
     </Container>
 
 

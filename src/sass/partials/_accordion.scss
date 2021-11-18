@@ -1,3 +1,7 @@
+.accordion {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
 .accordion-button:not(.collapsed),
 .accordion-button {
   color: $colour-primary;
@@ -18,6 +22,6 @@
 }
 
 .accordion-item {
-  background-color: $colour-background-primary;
+  background-image: radial-gradient(circle at center, white, #f5f5f5);
   border: none;
 }

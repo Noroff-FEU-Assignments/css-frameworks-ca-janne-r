@@ -1,0 +1,44 @@
+.contact--info {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    margin: 20px 0 20px;
+  }
+}
+
+.fa-envelope:before,
+.fa-phone:before,
+.fa-map-marker-alt:before {
+  margin-right: 10px;
+}
+
+.form-check-input {
+  background-color: $colour-primary;
+  border: none;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+.form-check {
+  font-size: 12px;
+}
+
+.contact--container__form {
+  background-color: #efefef;
+  padding: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .contact--container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contact--info {
+    margin-top: 62px;
+    margin-left: 20px;
+  }
+}
