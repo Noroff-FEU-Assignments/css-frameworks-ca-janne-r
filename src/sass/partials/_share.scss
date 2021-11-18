@@ -1,0 +1,10 @@
+.share {
+  display: flex;
+  margin-top: 20px;
+  color: black;
+
+  & > i {
+    margin-left: 10px;
+    font-weight: 900;
+  }
+}
