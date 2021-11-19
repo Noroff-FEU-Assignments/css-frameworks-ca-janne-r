@@ -1,0 +1,12 @@
+.btn {
+  color: white;
+}
+
+.btn-group > :not(.btn-check) + .btn {
+  background-color: white;
+  color: $colour-primary;
+}
+
+.btn-group {
+  margin: 20px 0 20px;
+}

@@ -4,11 +4,22 @@ footer {
   padding: 20px;
 }
 
-.footer--content {
-  display: flex;
-  justify-content: space-between;
+.fab {
+  margin-right: 10px;
 }
 
-.footer--content__icons :first-child {
-  margin-right: 10px;
+.col:last-child {
+  text-align: end;
+}
+
+.col:nth-child(2) {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .col-12,
+  .col,
+  .col:last-child {
+    text-align: center;
+  }
 }

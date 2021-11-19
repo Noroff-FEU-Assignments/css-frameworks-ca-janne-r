@@ -2,11 +2,6 @@
   --bs-gutter-y: 1.5rem;
 }
 
-.btn-group > :not(.btn-check) + .btn {
-  background-color: white;
-  color: $colour-primary;
-}
-
 .btn-more {
   width: 100%;
   background: linear-gradient(
@@ -15,12 +10,4 @@
     $colour-secondary 50%
   );
   border: none;
-}
-
-.btn-group {
-  margin: 20px 0 20px;
-}
-
-.btn {
-  color: white;
 }

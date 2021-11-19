@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Share from "./Share";
+import ShareIcons from "./ShareIcons";
 
 function ContentAccordion() {
   return (
@@ -14,7 +14,7 @@ function ContentAccordion() {
             src="/images/tab/tab-1.jpg"
             alt="First slide"
           />
-          <Share />
+          <ShareIcons />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
@@ -26,7 +26,7 @@ function ContentAccordion() {
             src="/images/tab/tab-2.jpg"
             alt="First slide"
           />
-          <Share />
+          <ShareIcons />
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
@@ -38,7 +38,7 @@ function ContentAccordion() {
             src="/images/tab/tab-3.jpg"
             alt="First slide"
           />
-          <Share />
+          <ShareIcons />
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

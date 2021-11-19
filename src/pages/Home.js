@@ -1,4 +1,4 @@
-import Navigation from "../components/Navigation";
+
 import ImageCarousel from "../components/ImageCarousel";
 import Information from "../components/Information";
 import Container from "react-bootstrap/Container";

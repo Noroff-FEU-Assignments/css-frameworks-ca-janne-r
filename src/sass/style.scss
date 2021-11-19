@@ -20,15 +20,17 @@ $headings-color: $colour-primary;
 $nav-link: $colour-primary;
 
 @import "~bootstrap/scss/bootstrap";
+
 @import "./partials/layout";
-@import "./partials/form";
-@import "./partials/tabs";
 @import "./partials/typography";
 @import "./partials/navigation";
 @import "./partials/imageCarousel";
 @import "./partials/information";
+@import "./partials/contentAccordion";
+@import "./partials/tabs";
 @import "./partials/share";
-@import "./partials/accordion";
-@import "./partials/news";
+@import "./partials/newsCard";
+@import "./partials/buttonNum";
+@import "./partials/contactForm";
 @import "./partials/contactInfo";
 @import "./partials/footer";

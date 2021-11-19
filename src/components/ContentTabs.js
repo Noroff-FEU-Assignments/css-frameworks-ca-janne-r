@@ -1,7 +1,7 @@
 import React from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
-import Share from "./Share";
+import ShareIcons from "./ShareIcons";
 
 function ContentTabs() {
   return (
@@ -14,7 +14,7 @@ function ContentTabs() {
         />
         <div className="tab--info">
           Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-          <Share />
+          <ShareIcons />
         </div>
       </Tab>
       <Tab eventKey="second" title="Second">
@@ -25,7 +25,7 @@ function ContentTabs() {
         />
         <div className="tab--info">
           Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-          <Share />
+          <ShareIcons />
         </div>
       </Tab>
       <Tab eventKey="third" title="Third">
@@ -36,7 +36,7 @@ function ContentTabs() {
         />
         <div className="tab--info">
           Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.
-          <Share />
+          <ShareIcons />
         </div>
       </Tab>
     </Tabs>

@@ -1,19 +1,21 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Footer() {
   return (
 
     <footer>
       <Container>
-        <div className="footer--content">
-          <div className="footer--content__icons">
+        <Row >
+          <Col xs={12} sm={true} >
             <i className="fab fa-vimeo-v"></i>
             <i className="fab fa-youtube"></i>
-          </div>
-          <div>hello@yay.com</div>
-          <div>Copyright 2020</div>
-        </div>
+          </Col>
+          <Col>hello@yay.com</Col>
+          <Col>Copyright 2020</Col>
+        </Row>
       </Container>
     </footer>
 
