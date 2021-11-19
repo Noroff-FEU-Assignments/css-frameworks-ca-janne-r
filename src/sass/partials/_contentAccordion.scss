@@ -1,5 +1,10 @@
 .accordion {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.accordion-body {
+  text-align: initial;
 }
 
 .accordion-button:not(.collapsed),
@@ -24,4 +29,14 @@
 .accordion-item {
   background-image: radial-gradient(circle at center, white, #f5f5f5);
   border: none;
+}
+
+.accordion-item:first-of-type,
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 20px 20px 0 0;
+}
+
+.accordion-item.accordion-item:last-of-type,
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 0 0 20px 20px;
 }
