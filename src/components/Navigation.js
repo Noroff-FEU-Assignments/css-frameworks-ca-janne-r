@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -16,15 +16,15 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link exact to="/" className="nav-link">
+            <NavLink exact to="/" className="nav-link">
               Home
-            </Link>
-            <Link to="/news" className="nav-link">
+            </NavLink>
+            <NavLink to="/news" className="nav-link">
               News
-            </Link>
-            <Link to="/contact" className="nav-link">
+            </NavLink>
+            <NavLink to="/contact" className="nav-link">
               Contact
-            </Link>
+            </NavLink>
           </Nav>
           <Form className="d-flex">
             <FormControl
@@ -33,7 +33,7 @@ function Navigation() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="go">Go</Button>
+            <Button>Go</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
